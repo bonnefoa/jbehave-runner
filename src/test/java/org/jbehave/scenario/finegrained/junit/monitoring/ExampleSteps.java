@@ -1,8 +1,7 @@
 package org.jbehave.scenario.finegrained.junit.monitoring;
 
 import static org.hamcrest.CoreMatchers.equalTo;
-import static org.jbehave.util.JUnit4Ensure.ensureThat;
-
+import org.jbehave.Ensure;
 import org.jbehave.scenario.annotations.Given;
 import org.jbehave.scenario.annotations.Then;
 import org.jbehave.scenario.annotations.When;
@@ -23,7 +22,7 @@ public class ExampleSteps extends Steps {
     
     @Then("x should equal $value")
     public void xShouldEqual(int value) {
-	ensureThat(x, equalTo(value));
+	Ensure.ensureThat(x, equalTo(value));
     }
 
 }
