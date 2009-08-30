@@ -1,4 +1,4 @@
-package org.jbehave.scenario.finegrained.junit.monitoring;
+package org.jbehave.contrib.finegrained;
 
 import javassist.CannotCompileException;
 import org.hamcrest.BaseMatcher;
@@ -14,9 +14,9 @@ import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.Description;
 import static org.mockito.Matchers.anyObject;
+import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.MockitoAnnotations;
-import org.mockito.Mock;
 
 import java.util.Arrays;
 import java.util.Collections;

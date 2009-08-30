@@ -1,9 +1,8 @@
-package org.jbehave.scenario.finegrained.junit.monitoring;
+package org.jbehave.contrib.finegrained;
 
+import javassist.CannotCompileException;
 import javassist.ClassPool;
 import javassist.CtClass;
-import javassist.NotFoundException;
-import javassist.CannotCompileException;
 import org.jbehave.scenario.steps.Steps;
 
 /**

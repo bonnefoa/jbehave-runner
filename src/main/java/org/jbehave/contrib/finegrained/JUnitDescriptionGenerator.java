@@ -1,4 +1,4 @@
-package org.jbehave.scenario.finegrained.junit.monitoring;
+package org.jbehave.contrib.finegrained;
 
 import org.jbehave.scenario.JUnitScenario;
 import org.jbehave.scenario.definition.ScenarioDefinition;

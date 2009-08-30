@@ -1,2 +1,3 @@
+Original sources from http://code.google.com/p/jbehave-junit-monitor/
 
-nothing to say 
+I mavenized the projet, refactored a bit and improved the naming of scenario.  
