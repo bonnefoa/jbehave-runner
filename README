@@ -1,3 +1,9 @@
-Original sources from http://code.google.com/p/jbehave-junit-monitor/
+Tentative to implements a better jbehave runner.
 
-I mavenized the projet, refactored a bit and improved the naming of scenario.  
+Aims :
+ - Allow to launch multiple scenario from one test method
+ - Allow to have a step-grained report of all scenario steps
+
+Current problems : 
+ - Step execution still buggy
+
